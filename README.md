@@ -15,7 +15,7 @@ Tools Used
 Steps Performed
 - Downloaded dataset using kagglehub
 - Checked missing values and data types
-- Filled missing values (Age → median, Embarked → mode)
+- Filled missing values (missing Age to median, missing Embarked to mode)
 - Dropped Cabin column
 - Encoded categorical variables (Sex, Embarked)
 - Removed outliers using IQR method
